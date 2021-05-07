@@ -1,0 +1,150 @@
+
+#detection_types_container {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: auto;
+    z-index: 5;
+    overflow: hidden;
+}
+#detection_types_container .detection_types {
+    height: 80px;
+    overflow: hidden;
+    float: none;
+    font-size: 14px;
+    margin: 0 auto;
+    display: table;
+}
+#detection_types_container .detection_types ul.type-icons {
+    display: inline;
+    list-style-type: none;
+    height: 40px;
+    margin-top: 30px;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Ubuntu Mono', monospace;
+    outline: 0;
+}
+#detection_types_container .detection_types ul.type-icons li {
+    display: block;
+    position: relative;
+    width: 90px;
+    height: 24px;
+    background-color: #17201c;
+    color: #456e59;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 24px;
+    float: left;
+    border: 1px solid #456e59;
+    cursor: pointer;
+    text-align: center;
+}
+
+#detection_types_container .detection_types ul.type-icons li .icon {
+    width: 24px;
+    height: 24px;
+    vertical-align:middle
+}
+
+#detection_types_container .detection_types ul.type-icons li span.name {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    line-height: 24px;
+    padding-left: 3px;
+}
+
+#detection_types_container .detection_types ul.type-icons li.disabled {
+    opacity: .4;
+}
+
+#detection_types_container .detection_types ul.type-icons li.last {
+    border-right: none !important;
+}
+#detection_types_container .detection_types ul.type-icons li i {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#detection_types_container .detection_types ul.type-icons li div.count {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    left: 0;
+    top: -30px;
+    text-align: center;
+    color: #456e59;
+    cursor: pointer;
+}
+#detection_types_container .detection_types ul.type-icons li div.count_line {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: #456e59;
+    top: -10px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev,
+#detection_types_container .detection_types .type-icons #detection_types_next {
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10px auto;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev svg,
+#detection_types_container .detection_types .type-icons #detection_types_next svg {
+    width: 12px;
+    fill: #629C7F;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev:hover svg,
+#detection_types_container .detection_types .type-icons #detection_types_next:hover svg {
+    fill: #ffffff;
+}
+
+
+/* countrypop and countrypop_mini */
+#systempop {
+    display: none;
+    margin: 10px auto;
+    max-width: 500px;
+    z-index: 10;
+    overflow: hidden;
+    height: auto;
+    background-color: #17201C;
+    padding: 35px;
+    color: #456e59;
+    font-family:'Ubuntu Mono', monospace;
+    border: 1px solid #456e59;
+}
+#systempop i.icon {
+    display: block;
+    top: 35px;
+    left: 35px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 5px;
+    float: left;
+}

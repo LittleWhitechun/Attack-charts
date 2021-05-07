@@ -1,0 +1,516 @@
+
+#mapBox {
+  width: 60%;
+  height: 74%;
+  margin-left: 20%;
+}
+
+.chilunIndex {
+  position: absolute;
+}
+#goBackBtn {
+  position: fixed;
+  height: 24px;
+  width: 24px;
+  right: 23%;
+  top: 20%;
+  z-index: 999;
+}
+.toolwrap {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: none;
+  .toolBox {
+    width: 200px;
+    height: 106px;
+    border: 1px #f1d62b solid;
+    border-radius: 8px;
+    position: relative;
+
+    .maiobianBox {
+      width: 191px;
+      height: 98px;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -96px;
+      margin-top: -49px;
+      border: 2px #f1d62b dashed;
+    }
+
+    .innerBox {
+      width: 189px;
+      height: 96px;
+      border-radius: 8px;
+      background-color: rgba(35, 35, 33, 0.4);
+      margin-top: 1px;
+      margin-left: 1px;
+      padding: 8px 16px;
+      box-sizing: border-box;
+
+      .yellowBlock {
+        width: 100%;
+        height: 8px;
+        overflow: hidden;
+        margin-top: 3px;
+
+        .yellowCell {
+          width: 4px;
+          height: 15px;
+          background-color: rgba(241, 214, 43, 1);
+          float: left;
+          margin-left: 3px;
+          margin-top: -5px;
+          transform: rotate(-15deg);
+        }
+      }
+      .noInfo{
+        color: white;
+        line-height: 70px;
+        margin-left: 28%;
+      }
+      .text {
+        width: 100%;
+        height: 100%;
+        padding-top: 8px;
+
+        span {
+          width: 50%;
+          display: block;
+          float: left;
+          color: white;
+          font-size: 15px;
+          line-height: 30px;
+        }
+      }
+    }
+
+    .circle {
+      width: 40px;
+      height: 20px;
+      border: 1px #f1d62b solid;
+      border-radius: 50%;
+      position: relative;
+
+      .innerCircle {
+        width: 26px;
+        height: 13px;
+        border: 1px #f1d62b solid;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -7.5px;
+        margin-left: -14px;
+      }
+    }
+  }
+  .bowen{
+    position: relative;
+    top: 91px;
+    left: 90px;
+    width: 30px;
+    height: 15px;
+    border: 1px #ffdd23 solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px rgba(255,221,35,0.5);
+    .xiaobowen{
+      position: absolute;
+      top: 2px;
+      left: 6px;
+      width: 16px;
+      height: 8px;
+      border: 1px #ffdd23 solid;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px 1px rgba(255,221,35,0.5);
+    }
+  }
+  img {
+    position: absolute;
+    top: 102px;
+    left: 50%;
+    margin-left: -40px;
+  }
+}
+.iconWrap{
+  height: 95px;
+  position: relative;
+  top: -1204px;
+  left: 600px;
+  font-family: 'UnidreamLED';
+  span{
+    font-size: 18px;
+    letter-spacing:2px;
+  }
+  .Img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .textWrap{
+    height: 40px;
+    border: 1px rgba(2,223,223,0.5) solid;
+    position: absolute;
+    bottom: 22px;
+    left: 68px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 8px;
+    .leftTop{
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      width: 12px;
+      height: 5px;
+      border-top: 2px rgb(2,223,223) solid;
+      border-left: 2px rgb(2,223,223) solid;
+    }
+    .leftBot{
+      position: absolute;
+      bottom: -2px;
+      left: -2px;
+      width: 47px;
+      height: 5px;
+      border-bottom: 2px rgb(2,223,223) solid;
+      border-left: 2px rgb(2,223,223) solid;
+    }
+    .rightTop{
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      width: 12px;
+      height: 5px;
+      border-top: 2px rgb(2,223,223) solid;
+      border-right: 2px rgb(2,223,223) solid;
+    }
+    .rightBot{
+      position: absolute;
+      bottom: -2px;
+      right: -2px;
+      width: 11px;
+      height: 5px;
+      border-bottom: 2px rgb(2,223,223) solid;
+      border-right: 2px rgb(2,223,223) solid;
+    }
+  } 
+  .block{
+    width: 5px;
+    height: 5px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: -18px;
+    left: 133px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  }
+  .line{
+    width: 1px;
+    height: 44px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: -13px;
+    left: 135px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  }
+}
+.ryWrap{
+  top: -15%;
+  left: 28%;
+}
+.jgptWrap{
+  top: -15%;
+  left: 38%;
+  .block{
+    left: 140px;
+  }
+  .line{
+    left: 142px;
+  }
+}
+.jgwzWrap{
+  top: -43%;
+  left: 63%;
+  .block{
+    left: 33px;
+    top: -17px;
+  }
+  .line1{
+    width: 94px;
+    height: 1px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: -15px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+    left: 39px;
+  }
+  .line2{
+    width: 1px;
+    height: 47px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: -14px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+    left: 132px;
+  }
+}
+.dwWrap{
+  left: 38%;
+  top: -90%;
+  .block{
+    top: 145px;
+    left: 65px;
+  }
+  .line1{
+    width: 46px;
+    height: 1px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: 147px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+    left: 69px;
+  }
+  .line2{
+    width: 1px;
+    height: 75px;
+    background-color: #02dfdf;
+    position: absolute;
+    top: 72px;
+    box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+    left: 115px;
+  }
+}
+.jgzcWrap{
+  top: -99%;
+  left: 48%;
+.block{
+  top: 118px;
+  left: 201px;
+}
+.line1{
+  width: 74px;
+  height: 1px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 120px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 130px;
+}
+.line2{
+  width: 1px;
+  height: 47px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 73px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 130px;
+}
+}
+
+.dwWrapXZ{
+  top: 163px;
+  left: 537px;
+  position: fixed;
+  .Img{
+    position: relative;
+  top: 39px;
+  left: 0;
+  }
+  .textWrap{
+    position: relative;
+    bottom: 22px;
+    left: 68px;
+  }
+.line1{
+  width: 53px;
+  height: 1px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 180px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 117px;
+}
+.line2{
+  height: 77px;
+  width: 1px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 103px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 115px;
+}
+.block{
+  top: 178px;
+  left: 171px;
+}
+}
+.jgzcWrapXZ{
+top: 114px;
+  left: 979px;
+  position: fixed;
+  .Img{
+    position: relative;
+  top: 15px;
+  left: -9px;
+  }
+  .textWrap{
+    position: relative;
+    bottom: 51px;
+  left: 58px;
+  }
+.line{
+  width:1px;
+  height: 44px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 74px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 130px;
+}
+.block{
+  top: 119px;
+  left: 128px;
+}
+}
+.ryWrapXZ{
+top: 396px;
+  left: 499px;
+  position: fixed;
+  .Img{
+    position: relative;
+  bottom: -9px;
+  left: -7px;
+  }
+  .textWrap{
+    position: relative;
+    bottom: 51px;
+  left: 60px;
+  }
+.line{
+  width:1px;
+  height: 44px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: 74px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 130px;
+}
+.block{
+  top: 119px;
+  left: 128px;
+}
+}
+.jgwzWrapXZ{
+top: 561px;
+  left: 1190px;
+  position: fixed;
+  .Img{
+    position: relative;
+  top: 10px;
+  left: -5px;
+  }
+  .textWrap{
+    bottom: 50px;
+    left: 63px;
+    position: relative;
+  }
+.line1{
+  width:92px;
+  height: 1px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: -15px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 39px;
+}
+.line2{
+  height: 47px;
+  width: 1px;
+  background-color: #02dfdf;
+  position: absolute;
+  top: -14px;
+  box-shadow: rgba(2, 223, 223, 0.3) 0 0 1px 1px;
+  left: 130px;
+}
+.block{
+  top: -17px;
+  left: 34px;
+}
+}
+
+//JG对象齿轮图详情
+.wheelDetail {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 37%;
+  left: 35%;
+  background-image: url(/static/img/wheelChart/wheel_detail_bg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.wheelDetailList {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 37%;
+  left: 13%;
+  
+  ul {
+      color : white;
+      li {
+          display: flex;
+          align-items: baseline;
+          margin-bottom: 6%;
+          div:nth-child(1){
+              width: 10%;
+          }
+          div:nth-child(2){
+              text-overflow: ellipsis;
+              width: 90%;
+              overflow: hidden;
+              white-space: nowrap;
+          }
+      }
+  }
+  
+}
+
+.wheelLegend {
+  width: 10px;
+  height: 10px;
+  margin-right: 5%;
+}
+
+.wheelDetailPie { 
+  width: 50%;
+  height: 100%;
+  padding-top: 22%;
+  padding-left: 7%;
+
+  img {
+      position: absolute;
+      top: 10%;
+      left: 85%;
+      width: 20px;
+      cursor: pointer;
+  }
+}
+
+.weelDetailIcon {
+  position: absolute;
+  top: 21px;
+  left: 37px;
+}
+.checkName {
+  position: absolute;
+  top: 53%;
+  right: 21%;
+  color: white;
+}

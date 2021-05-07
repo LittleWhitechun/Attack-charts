@@ -1,0 +1,639 @@
+.webgl {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#webgl-canvas {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+#map_controls {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 160px;
+    top: 30px;
+    right: 30px;
+    z-index: 5;
+}
+
+#map_controls #map_controls_buttons {
+    display: block;
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#map_controls #map_controls_buttons li {
+    display: block;
+    position: relative;
+    float: none;
+    clear: both;
+    width: 35px;
+    height: 35px;
+    background-color: #19241e;
+    margin-bottom: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25px;
+    cursor: pointer;
+}
+
+#map_controls #map_controls_buttons #map_control_type_plane { display: none; }
+#map_controls #map_controls_buttons .map_control_button {
+    width: 30px;
+    height: 30px;
+    fill: #619B7F;
+    padding: 3px;
+}
+
+#map_controls #map_controls_buttons .map_control_button:hover {
+    fill: #FFFFFF;
+}
+
+#map_controls #map_controls_buttons #map_control_color_dark { display: none; }
+#map_controls #map_controls_buttons #map_control_color_dark { display: none; }
+#map_controls #map_controls_buttons #map_control_demo_off { display: none; }
+
+
+
+#map_controls #map_controls_buttons .map_control_button_label {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 0;
+    right: 35px;
+    width: 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    background-color: #629c7f;
+    color: #FFFFFF;
+    line-height: 35px;
+    z-index: 5;
+}
+#map_controls #map_controls_buttons li:hover .map_control_button_label {
+    display: inline-block;
+    width: auto;
+}
+
+#selected-country-name {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 10px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#error_messages {
+    z-index: 999;
+}
+
+.error_title {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.error_description {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 180px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    #map_controls {
+        top: 65px;
+        right: 10px;
+    }
+}
+
+
+#countrypop {
+    position: absolute;
+    background-color: #17201C;
+    color: #456E59;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 1;
+    display: none;
+
+    width: 272px;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #456e59;
+
+    -webkit-transition: 0.3s opacity linear;
+    -moz-transition: 0.3s opacity linear;
+    -ms-transition: 0.3s opacity linear;
+    -o-transition: 0.3s opacity linear;
+    transition: 0.3s opacity linear;
+}
+
+#countrypop_title, #countrypop_subtitle {
+    padding: 5px 15px;
+    font-family:'Ubuntu Mono', monospace;
+
+}
+
+#countrypop_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #cce8d9;
+}
+
+#countrypop_subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+.countrypop_closebutton {
+    width: 18px;
+    height: 18px;
+}
+
+.countrypop_subsystems {
+    padding: 10px 0 5px 0;
+    border-top: 1px solid #456e59;
+}
+
+.countrypop_subsystem {
+    padding: 5px 10px;
+    display: block;
+}
+
+.countrypop_subsystem_icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.countrypop_subsystem_name, .countrypop_subsystem_stats {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 13px;
+    vertical-align: middle;
+    height:100%;
+}
+
+.countrypop_subsystem_stats {
+    float: right;
+}
+
+#countrypop_disclaimer {
+    padding: 5px 5px 10px 5px;
+    font-size: 11px;
+    text-align: center;
+    color: #566256;
+}
+
+#countrypop_social {
+    border-top: 1px solid #456e59;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+#countrypop_social h3 {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+    font-family:'Ubuntu Mono', monospace;
+    font-weight: normal;
+    font-size: 13px;
+    color: #1b1b1b;
+    padding-bottom: 10px;
+}
+
+#countrypop_sharing_icons {
+    top: 15px;
+    right: 15px;
+    list-style-type: none;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#countrypop_sharing_icons li {
+    display: block;
+    width: 18px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+#countrypop_sharing_icons li a {
+    display: block;
+    width: 18px;
+    height: 30px;
+}
+#countrypop_sharing_icons li a i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+}
+
+#countrypop_sharing_icons li a .countrypop_sharing_button {
+    width: 18px;
+    height: 18px;
+    fill: #629C7F
+}
+
+#countrypop_sharing_icons li a:hover .countrypop_sharing_button {
+    fill: #FFFFFF;
+}
+
+#countrypop_more_detail {
+    margin: 0 0 20px 0;
+    font-size: 11px;
+    text-align: center;
+    color: #cce8d9;
+}
+
+#countrypop_more_detail a{
+    font-size: 11px;
+    color: #cce8d9;
+}
+
+#countrypop .popclose {
+    display: none;
+}
+@media (max-height: 430px) and (orientation: landscape) {
+    #map_controls {
+        display: none;
+    }
+
+    #detection_types_container {
+        display: none;
+    }
+
+    #countrypop {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border: none;
+        background-color: #17201C;
+        color: #456E59;
+        padding-top: 5px;
+
+        overflow: hidden;
+        overflow-y: visible;
+    }
+
+    #countrypop .popclose {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #17201C;
+        z-index: 100;
+    }
+
+    #countrypop .popclose svg {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        fill: #ffffff;
+    }
+
+    #countrypop .popclose:hover svg {
+        fill: #629C7F;
+    }
+
+    #countrypop_title, #countrypop_subtitle {
+        padding: 5px 15px;
+        font-family:'Ubuntu Mono', monospace;
+
+    }
+
+    #countrypop_title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #cce8d9;
+    }
+
+    #countrypop_subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        padding-bottom: 15px;
+        color: #ffffff;
+    }
+
+    .countrypop_subsystems {
+        padding: 10px 0 5px 0;
+        border-top: 1px solid #456e59;
+    }
+
+    .countrypop_subsystem {
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .countrypop_subsystem_icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+
+    .countrypop_subsystem_name, .countrypop_subsystem_stats {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 16px;
+        vertical-align: middle;
+        height:100%;
+    }
+
+    .countrypop_subsystem_stats {
+        float: right;
+    }
+
+    #countrypop_disclaimer {
+        padding: 5px 5px 10px 5px;
+        font-size: 13px;
+        text-align: center;
+        color: #566256;
+    }
+    #countrypop_social {
+        border-top: 1px solid #456e59;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #countrypop_social h3 {
+        height: 60px;
+        line-height: 60px;
+        margin-left: 20px;
+        font-family:'Ubuntu Mono', monospace;
+        font-weight: normal;
+        font-size: 13px;
+        color: #1b1b1b;
+        padding-bottom: 10px;
+    }
+
+    #countrypop_sharing_icons {
+        top: 15px;
+        right: 15px;
+        list-style-type: none;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #countrypop_sharing_icons li {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+    }
+    #countrypop_sharing_icons li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #countrypop {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border: none;
+        background-color: #17201C;
+        color: #456E59;
+        padding-top: 5px;
+
+        overflow: hidden;
+        overflow-y: visible;
+    }
+
+    #countrypop .popclose {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #17201C;
+        z-index: 100;
+
+    }
+    #countrypop .popclose svg {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        fill: #ffffff;
+    }
+
+    #countrypop .popclose:hover svg {
+        fill: #629C7F;
+    }
+
+    #countrypop_title, #countrypop_subtitle {
+        padding: 5px 15px;
+        font-family:'Ubuntu Mono', monospace;
+
+    }
+
+    #countrypop_title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #cce8d9;
+    }
+
+    #countrypop_subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        padding-bottom: 15px;
+        color: #ffffff;
+    }
+
+    .countrypop_subsystems {
+        padding: 10px 0 5px 0;
+        border-top: 1px solid #456e59;
+    }
+
+    .countrypop_subsystem {
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .countrypop_subsystem_icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+
+    .countrypop_subsystem_name, .countrypop_subsystem_stats {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 16px;
+        vertical-align: middle;
+        height:100%;
+    }
+
+    .countrypop_subsystem_stats {
+        float: right;
+    }
+
+    #countrypop_disclaimer {
+        padding: 5px 5px 10px 5px;
+        font-size: 13px;
+        text-align: center;
+        color: #566256;
+    }
+    #countrypop_social {
+        border-top: 1px solid #456e59;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #countrypop_social h3 {
+        height: 60px;
+        line-height: 60px;
+        margin-left: 20px;
+        font-family:'Ubuntu Mono', monospace;
+        font-weight: normal;
+        font-size: 13px;
+        color: #1b1b1b;
+        padding-bottom: 10px;
+    }
+
+    #countrypop_sharing_icons {
+        top: 15px;
+        right: 15px;
+        list-style-type: none;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #countrypop_sharing_icons li {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+    }
+    #countrypop_sharing_icons li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    #countrypop_sharing_icons li a i {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top: 6px;
+    }
+}
+
+#stats_graph {
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 4;
+    border: 1px solid #456e59;
+}
+
+#stats_graph #graph {
+    display: block;
+    width: 250px;
+    height: 350px;
+    background-color: #000000;
+
+}
+
+#stats_graph #stats_graph_header{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #17201C;
+    border-bottom: 1px solid #456e59;
+}
+
+#stats_graph #stats_graph_header h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #cce8d9;
+    padding-bottom: 15px;
+}
+
+#stats_graph #stats_graph_header h3 {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    #stats_graph {
+        display: none;
+    }
+}

@@ -1,0 +1,2406 @@
+html, body {
+    height:100%;
+    width:100%;
+    background-color: #050907;
+    /* background-color: #024b8f; */
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Ubuntu Mono', monospace;
+    outline: 0;
+}
+
+#app {
+    position:absolute;
+    top:102px;
+    bottom:51px;
+    left:0;
+    right:0;
+    overflow:auto;
+}
+.blured {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+@media (max-width: 767px) {
+    #app {
+        top: 61px;
+    }
+}
+
+
+/*!
+ * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
+ */
+
+.flag {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('/images/flags.png') no-repeat;
+    margin-left: 5px;
+}
+
+
+.flag.flag-ve {
+    background-position: -48px -336px;
+}
+
+.flag.flag-ao {
+    background-position: -192px 0;
+}
+
+.flag.flag-kh {
+    background-position: -336px -144px;
+}
+
+.flag.flag-bh {
+    background-position: -144px -24px;
+}
+
+.flag.flag-fi {
+    background-position: -48px -96px;
+}
+
+.flag.flag-gs {
+    background-position: -96px -120px;
+}
+
+.flag.flag-sl {
+    background-position: -24px -288px;
+}
+
+.flag.flag-dj {
+    background-position: -120px -72px;
+}
+
+.flag.flag-zm {
+    background-position: -288px -336px;
+}
+
+.flag.flag-cn {
+    background-position: -288px -48px;
+}
+
+.flag.flag-pg {
+    background-position: -216px -240px;
+}
+
+.flag.flag-gq {
+    background-position: -48px -120px;
+}
+
+.flag.flag-co {
+    background-position: -312px -48px;
+}
+
+.flag.flag-cg {
+    background-position: -144px -48px;
+}
+
+.flag.flag-wf {
+    background-position: -168px -336px;
+}
+
+.flag.flag-mx {
+    background-position: -144px -216px;
+}
+
+.flag.flag-bo {
+    background-position: -288px -24px;
+}
+
+.flag.flag-lv {
+    background-position: 0 -192px;
+}
+
+.flag.flag-vg {
+    background-position: -72px -336px;
+}
+
+.flag.flag-la {
+    background-position: -168px -168px;
+}
+
+.flag.flag-kr {
+    background-position: -72px -168px;
+}
+
+.flag.flag-pe {
+    background-position: -168px -240px;
+}
+
+.flag.flag-ps {
+    background-position: -360px -240px;
+}
+
+.flag.flag-sc {
+    background-position: -240px -264px;
+}
+
+.flag.flag-ai {
+    background-position: -96px 0;
+}
+
+.flag.flag-so {
+    background-position: -96px -288px;
+}
+
+.flag.flag-mt {
+    background-position: -48px -216px;
+}
+
+.flag.flag-vu {
+    background-position: -144px -336px;
+}
+
+.flag.flag-is {
+    background-position: -144px -144px;
+}
+
+.flag.flag-et {
+    background-position: 0 -96px;
+}
+
+.flag.flag-gw {
+    background-position: -168px -120px;
+}
+
+.flag.flag-us {
+    background-position: -312px -312px;
+}
+
+.flag.flag-eu {
+    background-position: -24px -96px;
+}
+
+.flag.flag-sg {
+    background-position: -312px -264px;
+}
+
+.flag.flag-zw {
+    background-position: -312px -336px;
+}
+
+.flag.flag-bi {
+    background-position: -168px -24px;
+}
+
+.flag.flag-mo {
+    background-position: -312px -192px;
+}
+
+.flag.flag-aw {
+    background-position: -312px 0;
+}
+
+.flag.flag-vn {
+    background-position: -120px -336px;
+}
+
+.flag.flag-ki {
+    background-position: -360px -144px;
+}
+
+.flag.flag-lt {
+    background-position: -336px -168px;
+}
+
+.flag.flag-za {
+    background-position: -264px -336px;
+}
+
+.flag.flag-ua {
+    background-position: -264px -312px;
+}
+
+.flag.flag-md {
+    background-position: -96px -192px;
+}
+
+.flag.flag-bm {
+    background-position: -240px -24px;
+}
+
+.flag.flag-py {
+    background-position: -48px -264px;
+}
+
+.flag.flag-st {
+    background-position: -168px -288px;
+}
+
+.flag.flag-bn {
+    background-position: -264px -24px;
+}
+
+.flag.flag-ru {
+    background-position: -144px -264px;
+}
+
+.flag.flag-lc {
+    background-position: -216px -168px;
+}
+
+.flag.flag-nz {
+    background-position: -96px -240px;
+}
+
+.flag.flag-do {
+    background-position: -192px -72px;
+}
+
+.flag.flag-va {
+    background-position: 0 -336px;
+}
+
+.flag.flag-uy {
+    background-position: -336px -312px;
+}
+
+.flag.flag-me {
+    background-position: -120px -192px;
+}
+
+.flag.flag-mm {
+    background-position: -264px -192px;
+}
+
+.flag.flag-gm {
+    background-position: 0 -120px;
+}
+
+.flag.flag-ms {
+    background-position: -24px -216px;
+}
+
+.flag.flag-ck {
+    background-position: -216px -48px;
+}
+
+.flag.flag-kp {
+    background-position: -48px -168px;
+}
+
+.flag.flag-tn {
+    background-position: -96px -312px;
+}
+
+.flag.flag-ky {
+    background-position: -120px -168px;
+}
+
+.flag.flag-tt {
+    background-position: -168px -312px;
+}
+
+.flag.flag-no {
+    background-position: 0 -240px;
+}
+
+.flag.flag-ar {
+    background-position: -216px 0;
+}
+
+.flag.flag-ae {
+    background-position: -24px 0;
+}
+
+.flag.flag-an {
+    background-position: -168px 0;
+}
+
+.flag.flag-sr {
+    background-position: -120px -288px;
+}
+
+.flag.flag-ie {
+    background-position: 0 -144px;
+}
+
+.flag.flag-cl {
+    background-position: -240px -48px;
+}
+
+.flag.flag-it {
+    background-position: -168px -144px;
+}
+
+.flag.flag-pa {
+    background-position: -144px -240px;
+}
+
+.flag.flag-gy {
+    background-position: -192px -120px;
+}
+
+.flag.flag-mv {
+    background-position: -96px -216px;
+}
+
+.flag.flag-jo {
+    background-position: -240px -144px;
+}
+
+.flag.flag-nf {
+    background-position: -288px -216px;
+}
+
+.flag.flag-vc {
+    background-position: -24px -336px;
+}
+
+.flag.flag-bl {
+    background-position: -216px -24px;
+}
+
+.flag.flag-cd {
+    background-position: -96px -48px;
+}
+
+.flag.flag-gi {
+    background-position: -336px -96px;
+}
+
+.flag.flag-np {
+    background-position: -24px -240px;
+}
+
+.flag.flag-mn {
+    background-position: -288px -192px;
+}
+
+.flag.flag-fm {
+    background-position: -120px -96px;
+}
+
+.flag.flag-au {
+    background-position: -288px 0;
+}
+
+.flag.flag-ma {
+    background-position: -48px -192px;
+}
+
+.flag.flag-bf {
+    background-position: -96px -24px;
+}
+
+.flag.flag-ne {
+    background-position: -264px -216px;
+}
+
+.flag.flag-dm {
+    background-position: -168px -72px;
+}
+
+.flag.flag-im {
+    background-position: -48px -144px;
+}
+
+.flag.flag-cm {
+    background-position: -264px -48px;
+}
+
+.flag.flag-ml {
+    background-position: -240px -192px;
+}
+
+.flag.flag-sy {
+    background-position: -216px -288px;
+}
+
+.flag.flag-sd {
+    background-position: -264px -264px;
+}
+
+.flag.flag-al {
+    background-position: -120px 0;
+}
+
+.flag.flag-bj {
+    background-position: -192px -24px;
+}
+
+.flag.flag-ca {
+    background-position: -72px -48px;
+}
+
+.flag.flag-ls {
+    background-position: -312px -168px;
+}
+
+.flag.flag-kw {
+    background-position: -96px -168px;
+}
+
+.flag.flag-ee {
+    background-position: -264px -72px;
+}
+
+.flag.flag-ph {
+    background-position: -240px -240px;
+}
+
+.flag.flag-ss {
+    background-position: -144px -288px;
+}
+
+.flag.flag-de {
+    background-position: -96px -72px;
+}
+
+.flag.flag-sv {
+    background-position: -192px -288px;
+}
+
+.flag.flag-az {
+    background-position: -360px 0;
+}
+
+.flag.flag-nc {
+    background-position: -240px -216px;
+}
+
+.flag.flag-fr {
+    background-position: -168px -96px;
+}
+
+.flag.flag-ni {
+    background-position: -336px -216px;
+}
+
+.flag.flag-hk {
+    background-position: -216px -120px;
+}
+
+.flag.flag-mu {
+    background-position: -72px -216px;
+}
+
+.flag.flag-pr {
+    background-position: -336px -240px;
+}
+
+.flag.flag-ro {
+    background-position: -96px -264px;
+}
+
+.flag.flag-ic {
+    background-position: -336px -120px;
+}
+
+.flag.flag-tr {
+    background-position: -144px -312px;
+}
+
+.flag.flag-es {
+    background-position: -360px -72px;
+}
+
+.flag.flag-ba {
+    background-position: 0 -24px;
+}
+
+.flag.flag-sn {
+    background-position: -72px -288px;
+}
+
+.flag.flag-il {
+    background-position: -24px -144px;
+}
+
+.flag.flag-to {
+    background-position: -120px -312px;
+}
+
+.flag.flag-uz {
+    background-position: -360px -312px;
+}
+
+.flag.flag-sk {
+    background-position: 0 -288px;
+}
+
+.flag.flag-bz {
+    background-position: -48px -48px;
+}
+
+.flag.flag-gh {
+    background-position: -312px -96px;
+}
+
+.flag.flag-nu {
+    background-position: -72px -240px;
+}
+
+.flag.flag-id {
+    background-position: -360px -120px;
+}
+
+.flag.flag-ge {
+    background-position: -264px -96px;
+}
+
+.flag.flag-pl {
+    background-position: -288px -240px;
+}
+
+.flag.flag-se {
+    background-position: -288px -264px;
+}
+
+.flag.flag-th {
+    background-position: -360px -288px;
+}
+
+.flag.flag-ec {
+    background-position: -240px -72px;
+}
+
+.flag.flag-dz {
+    background-position: -216px -72px;
+}
+
+.flag.flag-ws {
+    background-position: -192px -336px;
+}
+
+.flag.flag-fo {
+    background-position: -144px -96px;
+}
+
+.flag.flag-bw {
+    background-position: 0 -48px;
+}
+
+.flag.flag-gt {
+    background-position: -120px -120px;
+}
+
+.flag.flag-ga {
+    background-position: -192px -96px;
+}
+
+.flag.flag-ci {
+    background-position: -192px -48px;
+}
+
+.flag.flag-gr {
+    background-position: -72px -120px;
+}
+
+.flag.flag-rw {
+    background-position: -168px -264px;
+}
+
+.flag.flag-pw {
+    background-position: -24px -264px;
+}
+
+.flag.flag-ye {
+    background-position: -216px -336px;
+}
+
+.flag.flag-hu {
+    background-position: -312px -120px;
+}
+
+.flag.flag-by {
+    background-position: -24px -48px;
+}
+
+.flag.flag-eg {
+    background-position: -288px -72px;
+}
+
+.flag.flag-my {
+    background-position: -168px -216px;
+}
+
+.flag.flag-tk {
+    background-position: -24px -312px;
+}
+
+.flag.flag-nr {
+    background-position: -48px -240px;
+}
+
+.flag.flag-li {
+    background-position: -240px -168px;
+}
+
+.flag.flag-as {
+    background-position: -240px 0;
+}
+
+.flag.flag-tv {
+    background-position: -192px -312px;
+}
+
+.flag.flag-tf {
+    background-position: -312px -288px;
+}
+
+.flag.flag-bb {
+    background-position: -24px -24px;
+}
+
+.flag.flag-mf {
+    background-position: -144px -192px;
+}
+
+.flag.flag-ke {
+    background-position: -288px -144px;
+}
+
+.flag.flag-td {
+    background-position: -288px -288px;
+}
+
+.flag.flag-fj {
+    background-position: -72px -96px;
+}
+
+.flag.flag-tz {
+    background-position: -240px -312px;
+}
+
+.flag.flag-gu {
+    background-position: -144px -120px;
+}
+
+.flag.flag-si {
+    background-position: -360px -264px;
+}
+
+.flag.flag-bs {
+    background-position: -336px -24px;
+}
+
+.flag.flag-ly {
+    background-position: -24px -192px;
+}
+
+.flag.flag-tg {
+    background-position: -336px -288px;
+}
+
+.flag.flag-mk {
+    background-position: -216px -192px;
+}
+
+.flag.flag-mw {
+    background-position: -120px -216px;
+}
+
+.flag.flag-sz {
+    background-position: -240px -288px;
+}
+
+.flag.flag-yt {
+    background-position: -240px -336px;
+}
+
+.flag.flag-sb {
+    background-position: -216px -264px;
+}
+
+.flag.flag-ax {
+    background-position: -336px 0;
+}
+
+.flag.flag-jp, .flag.flag-ja{
+    background-position: -264px -144px;
+}
+
+.flag.flag-gd {
+    background-position: -240px -96px;
+}
+
+.flag.flag-bg {
+    background-position: -120px -24px;
+}
+
+.flag.flag-gb, .flag.flag-en {
+    background-position: -216px -96px;
+}
+
+.flag.flag-tj {
+    background-position: 0 -312px;
+}
+
+.flag.flag-ng {
+    background-position: -312px -216px;
+}
+
+.flag.flag-tm {
+    background-position: -72px -312px;
+}
+
+.flag.flag-tl {
+    background-position: -48px -312px;
+}
+
+.flag.flag-mg {
+    background-position: -168px -192px;
+}
+
+.flag.flag-at {
+    background-position: -264px 0;
+}
+
+.flag.flag-ch {
+    background-position: -168px -48px;
+}
+
+.flag.flag-mc {
+    background-position: -72px -192px;
+}
+
+.flag.flag-ug {
+    background-position: -288px -312px;
+}
+
+.flag.flag-cv {
+    background-position: 0 -72px;
+}
+
+.flag.flag-mz {
+    background-position: -192px -216px;
+}
+
+.flag.flag-bt {
+    background-position: -360px -24px;
+}
+
+.flag.flag-cz {
+    background-position: -72px -72px;
+}
+
+.flag.flag-cy {
+    background-position: -48px -72px;
+}
+
+.flag.flag-mr {
+    background-position: 0 -216px;
+}
+
+.flag.flag-kg {
+    background-position: -312px -144px;
+}
+
+.flag.flag-ht {
+    background-position: -288px -120px;
+}
+
+.flag.flag-mh {
+    background-position: -192px -192px;
+}
+
+.flag.flag-kn {
+    background-position: -24px -168px;
+}
+
+.flag.flag-vi {
+    background-position: -96px -336px;
+}
+
+.flag.flag-jm {
+    background-position: -216px -144px;
+}
+
+.flag.flag-pk {
+    background-position: -264px -240px;
+}
+
+.flag.flag-km {
+    background-position: 0 -168px;
+}
+
+.flag.flag-om {
+    background-position: -120px -240px;
+}
+
+.flag.flag-kz {
+    background-position: -144px -168px;
+}
+
+.flag.flag-cu {
+    background-position: -360px -48px;
+}
+
+.flag.flag-af {
+    background-position: -48px 0;
+}
+
+.flag.flag-mq {
+    background-position: -360px -192px;
+}
+
+.flag.flag-bd {
+    background-position: -48px -24px;
+}
+
+.flag.flag-gn {
+    background-position: -24px -120px;
+}
+
+.flag.flag-ad {
+    background-position: 0 0;
+}
+
+.flag.flag-gg {
+    background-position: -288px -96px;
+}
+
+.flag.flag-rs {
+    background-position: -120px -264px;
+}
+
+.flag.flag-iq {
+    background-position: -96px -144px;
+}
+
+.flag.flag-in {
+    background-position: -72px -144px;
+}
+
+.flag.flag-cw {
+    background-position: -24px -72px;
+}
+
+.flag.flag-pf {
+    background-position: -192px -240px;
+}
+
+.flag.flag-be {
+    background-position: -72px -24px;
+}
+
+.flag.flag-sa {
+    background-position: -192px -264px;
+}
+
+.flag.flag-sm {
+    background-position: -48px -288px;
+}
+
+.flag.flag-sh {
+    background-position: -336px -264px;
+}
+
+.flag.flag-nl {
+    background-position: -360px -216px;
+}
+
+.flag.flag-lu {
+    background-position: -360px -168px;
+}
+
+.flag.flag-lk {
+    background-position: -264px -168px;
+}
+
+.flag.flag-ir {
+    background-position: -120px -144px;
+}
+
+.flag.flag-pt {
+    background-position: 0 -264px;
+}
+
+.flag.flag-dk {
+    background-position: -144px -72px;
+}
+
+.flag.flag-am {
+    background-position: -144px 0;
+}
+
+.flag.flag-er {
+    background-position: -336px -72px;
+}
+
+.flag.flag-br {
+    background-position: -312px -24px;
+}
+
+.flag.flag-tw {
+    background-position: -216px -312px;
+}
+
+.flag.flag-na {
+    background-position: -216px -216px;
+}
+
+.flag.flag-qa {
+    background-position: -72px -264px;
+}
+
+.flag.flag-je {
+    background-position: -192px -144px;
+}
+
+.flag.flag-eh {
+    background-position: -312px -72px;
+}
+
+.flag.flag-cr {
+    background-position: -336px -48px;
+}
+
+.flag.flag-cf {
+    background-position: -120px -48px;
+}
+
+.flag.flag-hr {
+    background-position: -264px -120px;
+}
+
+.flag.flag-gl {
+    background-position: -360px -96px;
+}
+
+.flag.flag-ag {
+    background-position: -72px 0;
+}
+
+.flag.flag-hn {
+    background-position: -240px -120px;
+}
+
+.flag.flag-mp {
+    background-position: -336px -192px;
+}
+
+.flag.flag-lr {
+    background-position: -288px -168px;
+}
+
+.flag.flag-pn {
+    background-position: -312px -240px;
+}
+
+.flag.flag-lb {
+    background-position: -192px -168px;
+}
+
+.flag.flag-tc {
+    background-position: -264px -288px;
+}
+
+.flag.flag-fk {
+    background-position: -96px -96px;
+}
+
+#header {
+    width: 100%;
+    background-color: #050907;
+    z-index: 900;
+
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+
+#header_mainheader {
+    display: block;
+    height: 60px;
+    top: 0;
+    border-bottom: 1px solid #19241e;
+    padding: 0 30px;
+}
+
+#header_menu_button {
+    display: none;
+    float: left;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#header_menu_button svg {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    fill: #FFFFFF;
+}
+
+#header_menu_button:hover svg {
+    fill: #629C7F;
+}
+
+#mobile_menu {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #006D55;
+    z-index: 999;
+    display: block;
+    overflow: scroll;
+}
+
+.mobile_menu_item {
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    line-height: 40px;
+    border-bottom: 1px solid #287866;
+}
+
+#mobile_menu_close_button {
+    line-height: 40px;
+    display: block;
+    margin-left: 240px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#mobile_menu_close_button svg {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    fill: #ffffff;
+}
+
+#mobile_menu_close_button:hover svg {
+    fill: #629C7F;
+}
+
+
+
+.mobile_menu_item > a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #80b6aa;
+}
+
+.mobile_menu_item > a:hover {
+    background-color: #629C7F;
+    color: #FFFFFF;
+}
+.mobile_menu_item > h3 {
+    text-align: left;
+    padding-left: 20px;
+    color: #80b6aa;
+    display: inline-block;
+    font-weight: normal;
+}
+
+#mobile_menu_language_selector {
+    padding: 0 20px;
+}
+
+#mobile_menu_language_selector li {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+.mobile_menu_lang_item {
+    display: inline-block;
+    line-height: 30px;
+    width: 58px;
+    color: #80b6aa;
+    text-decoration: none;
+}
+
+.mobile_menu_lang_item span {
+    line-height: 24px;
+}
+
+.mobile_menu_lang_item .lang_item {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.mobile_menu_lang_item_selected {
+    background-color: #629C7F;
+}
+
+.mobile_menu_lang_item:hover {
+    background-color: #629C7F;
+    color: #FFFFFF;
+}
+
+#mobile_menu_share_block {
+    padding: 0 20px;
+}
+
+#mobile_menu_share_block li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+#mobile_menu_share_block li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-decoration: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+
+
+#mobile_menu_share_block li a .header_sharing_button {
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+}
+#mobile_menu_share_block li a .header_sharing_button {
+    fill: #629C7F;
+}
+
+#mobile_menu_infected_btn {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #629C7F;
+    border: 1px solid #287866;
+}
+
+#mobile_menu_infected_btn:hover {
+    background-color: #629C7F;
+}
+
+#header_main_title {
+    height: 60px;
+    line-height: 60px;
+    top: 0;
+    font-weight: normal;
+    font-size: 22px;
+    float: left;
+    margin-right: 10px;
+}
+
+#header_main_title * {
+    font-size: 22px;
+}
+
+
+
+
+
+#header_language_selector {
+    background-color: #19241E;
+    float: left;
+    margin-top: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+#header_language_selector #selected_language {
+    list-style-type: none;
+    position: relative;
+}
+
+#header_language_selector #selected_language div:hover {
+    background-color: #2F4F3F;
+}
+
+#header_language_selector span {
+    line-height:25px
+}
+
+#header_language_selector .lang_item {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+#header_language_selector #selected_language #alternative_languages {
+    display: none;
+    list-style-type: none;
+    position: fixed;
+    z-index: 999;
+    background-color: #19241E;
+}
+
+#header_language_selector #selected_language #alternative_languages li:hover {
+    background-color: #2F4F3F;
+}
+
+#header_language_selector #selected_language:hover #alternative_languages {
+    display: block;
+}
+
+#header_logout_form {
+    float: right;
+    display: block;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-right: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+#header_logout_form a svg {
+    width:32px;
+    height:32px;
+    fill: #629C7F;
+}
+
+#header_logout_form a:hover svg{
+    fill: #ffffff;
+}
+
+#header_main_button {
+    float: right;
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: #006D55;
+    border: 1px solid #19241e;
+    cursor: pointer;
+}
+
+#header_main_button:hover {
+    background-color: #629C7F;
+}
+
+#header_subheader {
+    height: 40px;
+    top: 61px;
+    border-bottom: 1px solid #19241e;
+}
+
+#header_subheader ul.menu {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    height: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#header_subheader ul.menu li {
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+}
+
+#header_subheader ul.menu li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#header_subheader ul.menu li a:hover,
+#header_subheader ul.menu li a.active,
+#header_subheader ul.menu li a.active:hover {
+    color: #629c7f;
+}
+
+#header_subheader #share_links {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 30px;
+    height: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+#header_subheader #share_label {
+    line-height: 40px;
+    float: right;
+}
+
+#header_subheader #share_links li {
+    float: left;
+    margin: 0 10px;
+    height: 30px;
+}
+
+#header_subheader #share_links li a {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: 6px;
+    text-decoration: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#header_subheader #share_links li a .header_sharing_button
+{
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+}
+
+#header_subheader #share_links li a:hover .header_sharing_button
+{
+    fill: #629C7F;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    #header_subheader #share_label {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #header_mainheader {
+        padding: 0;
+    }
+
+    #header_main_title {
+        overflow: hidden;
+        position: absolute;
+        left: 60px;
+        text-overflow: ellipsis;
+        font-size: 16px;
+    }
+
+    #header_main_title > strong {
+        font-size: 16px;
+    }
+
+    #header_menu_button {
+        display: block;
+    }
+
+    #header_subheader {
+        display: none;
+    }
+
+    #header_language_selector {
+        display: none;
+    }
+
+    #header_main_button {
+        display: none;
+    }
+}
+#footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #19241E;
+    z-index: 25;
+    background-color: #050907;
+    position:absolute;
+    height:50px;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+
+#footer_logo {
+    display: inline-block;
+    float: left;
+    width: 150px;
+    height: 100%;
+}
+
+#footer_copyright {
+    float: left;
+    line-height: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+    color: #315342;
+    font-size: 10px;
+}
+
+#tos_link {
+    font-size: 10px;
+    color: #315342;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer_copyright a:hover {
+    color: #629c7f !important;
+}
+
+#footer_social_channels{
+    float: right;
+    height: 100%;
+    line-height: 50px;
+}
+
+#footer_info {
+    height: 100%;
+    top: 0;
+    color: #848484;
+    font-size: 10px;
+}
+
+#footer_social_channels {
+    float: right;
+    height: 100%;
+    line-height: 50px;
+    color: #848484;
+    padding: 0 5px;
+    font-size: 11px;
+}
+
+#footer_social_channels ul {
+    list-style-type: none;
+}
+
+#footer_social_channels ul li {
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer_social_channels ul li a {
+    width:40px;
+    height: 40px;
+    display: block;
+    line-height: 50px;
+    color: #315342;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#footer_social_channels ul li a i {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 12px;
+    margin-left: -15px;
+}
+
+#footer_social_channels ul li a .footer-social-icon {
+    width: 40px;
+    height: 40px;
+    fill: #1C2421;
+}
+
+#footer_social_channels ul li a:hover .footer-social-icon {
+    fill: #619B7F;
+}
+
+
+#footer_openclose_button {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    right: 10px;
+}
+
+#footer_openclose_button .open svg,
+#footer_openclose_button .close svg {
+    width: 15px;
+    fill: #ffffff;
+}
+
+#footer_openclose_button:hover .open svg,
+#footer_openclose_button:hover .close svg {
+    fill: #629C7F;
+}
+
+#footer_openclose_button .open { display: none; }
+#footer_openclose_button .close { display: block; }
+#footer_openclose_button.closed .open { display: block; }
+#footer_openclose_button.closed .close { display: none; }
+
+
+
+@media (max-width: 767px) {
+    #footer {
+        height: 50px;
+    }
+
+    #footer_logo {
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #footer_copyright {
+        display: block;
+        float: none;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    #footer_info {
+        display: block;
+        float: none;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    #footer_social_channels {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+    }
+
+    #footer_social_channels ul {
+        display: inline-block;
+    }
+
+    #footer_openclose_button {
+        display: block;
+    }
+}
+.webgl {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#app{
+    overflow:hidden;
+}
+#webgl-canvas {
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 40%; */
+}
+#china-canvas {
+    /* position: absolute;
+    left: 40%;
+    top: 10%;
+    height: 90%;
+    width: 60%;
+    background: linear-gradient(#000000, #000080,#000000);
+    overflow:hidden */
+    transform:scaleX(1.3);
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(#000000, #000080,#000000);
+    overflow:hidden;
+    /* transform:rotate(10deg) */
+}
+#mask-canvas {
+    /* position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none;
+    background-image: linear-gradient(#000000, #000080,#000000); */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#map_controls {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 160px;
+    top: 30px;
+    right: 30px;
+    z-index: 5;
+}
+
+#map_controls #map_controls_buttons {
+    display: block;
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#map_controls #map_controls_buttons li {
+    display: block;
+    position: relative;
+    float: none;
+    clear: both;
+    width: 35px;
+    height: 35px;
+    background-color: #19241e;
+    margin-bottom: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25px;
+    cursor: pointer;
+}
+
+#map_controls #map_controls_buttons #map_control_type_plane { display: none; }
+#map_controls #map_controls_buttons .map_control_button {
+    width: 30px;
+    height: 30px;
+    fill: #619B7F;
+    padding: 3px;
+}
+
+#map_controls #map_controls_buttons .map_control_button:hover {
+    fill: #FFFFFF;
+}
+
+#map_controls #map_controls_buttons #map_control_color_dark { display: none; }
+#map_controls #map_controls_buttons #map_control_color_dark { display: none; }
+#map_controls #map_controls_buttons #map_control_demo_off { display: none; }
+
+
+
+#map_controls #map_controls_buttons .map_control_button_label {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 0;
+    right: 35px;
+    width: 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    background-color: #629c7f;
+    color: #FFFFFF;
+    line-height: 35px;
+    z-index: 5;
+}
+#map_controls #map_controls_buttons li:hover .map_control_button_label {
+    display: inline-block;
+    width: auto;
+}
+
+#selected-country-name {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 10px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#error_messages {
+    z-index: 999;
+}
+
+.error_title {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.error_description {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 180px;
+    left: 0;
+    z-index: 5;
+    text-align: center;
+    text-shadow: 0 0 0.5em #8F7;
+    color: #93e2bc;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    #map_controls {
+        top: 65px;
+        right: 10px;
+    }
+}
+
+
+#countrypop,#eventpop {
+    position: absolute;
+    background-color: #17201C;
+    color: #456E59;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 1;
+    display: none;
+
+    width: 272px;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #456e59;
+
+    -webkit-transition: 0.3s opacity linear;
+    -moz-transition: 0.3s opacity linear;
+    -ms-transition: 0.3s opacity linear;
+    -o-transition: 0.3s opacity linear;
+    transition: 0.3s opacity linear;
+}
+
+#countrypop_title, #countrypop_subtitle,#eventpop_title, #eventpop_subtitle {
+    padding: 5px 15px;
+    font-family:'Ubuntu Mono', monospace;
+
+}
+
+#countrypop_title,#eventpop_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #cce8d9;
+}
+
+#countrypop_subtitle,#eventpop_subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+.countrypop_closebutton,.eventpop_closebutton {
+    width: 18px;
+    height: 18px;
+}
+
+.countrypop_subsystems,.eventpop_subsystems {
+    padding: 10px 0 5px 0;
+    border-top: 1px solid #456e59;
+}
+
+.countrypop_subsystem,.eventpop_subsystem {
+    padding: 5px 10px;
+    display: block;
+}
+
+.countrypop_subsystem_icon,.eventpop_subsystem_icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.countrypop_subsystem_name, .countrypop_subsystem_stats,.eventpop_subsystem_name, .eventpop_subsystem_stats {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 13px;
+    vertical-align: middle;
+    height:100%;
+}
+
+.countrypop_subsystem_stats,.eventpop_subsystem_stats {
+    float: right;
+}
+
+#countrypop_disclaimer,#eventpop_disclaimer {
+    padding: 5px 5px 10px 5px;
+    font-size: 11px;
+    text-align: center;
+    color: #566256;
+}
+
+#countrypop_social,#eventpop_social {
+    border-top: 1px solid #456e59;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+#countrypop_social h3,#eventpop_social h3 {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+    font-family:'Ubuntu Mono', monospace;
+    font-weight: normal;
+    font-size: 13px;
+    color: #1b1b1b;
+    padding-bottom: 10px;
+}
+
+#countrypop_sharing_icons,#eventpop_sharing_icons {
+    top: 15px;
+    right: 15px;
+    list-style-type: none;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#countrypop_sharing_icons li,#eventpop_sharing_icons li {
+    display: block;
+    width: 18px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+#countrypop_sharing_icons li a,#eventpop_sharing_icons li a {
+    display: block;
+    width: 18px;
+    height: 30px;
+}
+#countrypop_sharing_icons li a i,#eventpop_sharing_icons li a i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+}
+
+#countrypop_sharing_icons li a .countrypop_sharing_button,#eventpop_sharing_icons li a .eventpop_sharing_button {
+    width: 18px;
+    height: 18px;
+    fill: #629C7F
+}
+
+#countrypop_sharing_icons li a:hover .countrypop_sharing_button,#eventpop_sharing_icons li a:hover .eventpop_sharing_button {
+    fill: #FFFFFF;
+}
+
+#countrypop_more_detail,#eventpop_more_detail {
+    margin: 0 0 20px 0;
+    font-size: 11px;
+    text-align: center;
+    color: #cce8d9;
+}
+
+#countrypop_more_detail a,#eventpop_more_detail a{
+    font-size: 11px;
+    color: #cce8d9;
+}
+
+#countrypop .popclose,#eventpop .popclose {
+    display: none;
+}
+@media (max-height: 430px) and (orientation: landscape) {
+    #map_controls {
+        display: none;
+    }
+
+    #detection_types_container {
+        display: none;
+    }
+
+    #countrypop,#eventpop {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border: none;
+        background-color: #17201C;
+        color: #456E59;
+        padding-top: 5px;
+
+        overflow: hidden;
+        overflow-y: visible;
+    }
+
+    #countrypop .popclose,#eventpop .popclose {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #17201C;
+        z-index: 100;
+    }
+
+    #countrypop .popclose svg,#eventpop .popclose svg {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        fill: #ffffff;
+    }
+
+    #countrypop .popclose:hover svg,#eventpop .popclose:hover svg {
+        fill: #629C7F;
+    }
+
+    #countrypop_title, #countrypop_subtitle,#eventpop_title, #eventpop_subtitle {
+        padding: 5px 15px;
+        font-family:'Ubuntu Mono', monospace;
+
+    }
+
+    #countrypop_title,#eventpop_title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #cce8d9;
+    }
+
+    #countrypop_subtitle,#eventpop_subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        padding-bottom: 15px;
+        color: #ffffff;
+    }
+
+    .countrypop_subsystems,.eventpop_subsystems {
+        padding: 10px 0 5px 0;
+        border-top: 1px solid #456e59;
+    }
+
+    .countrypop_subsystem,.eventpop_subsystem {
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .countrypop_subsystem_icon,.eventpop_subsystem_icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+
+    .countrypop_subsystem_name, .countrypop_subsystem_stats,.eventpop_subsystem_name, .eventpop_subsystem_stats {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 16px;
+        vertical-align: middle;
+        height:100%;
+    }
+
+    .countrypop_subsystem_stats,.eventpop_subsystem_stats {
+        float: right;
+    }
+
+    #countrypop_disclaimer,#eventpop_disclaimer {
+        padding: 5px 5px 10px 5px;
+        font-size: 13px;
+        text-align: center;
+        color: #566256;
+    }
+    #countrypop_social,#eventpop_social {
+        border-top: 1px solid #456e59;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #countrypop_social h3,#eventpop_social h3 {
+        height: 60px;
+        line-height: 60px;
+        margin-left: 20px;
+        font-family:'Ubuntu Mono', monospace;
+        font-weight: normal;
+        font-size: 13px;
+        color: #1b1b1b;
+        padding-bottom: 10px;
+    }
+
+    #countrypop_sharing_icons,#eventpop_sharing_icons {
+        top: 15px;
+        right: 15px;
+        list-style-type: none;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #countrypop_sharing_icons li,#eventpop_sharing_icons li {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+    }
+    #countrypop_sharing_icons li a,#eventpop_sharing_icons li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #countrypop,#eventpop {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border: none;
+        background-color: #17201C;
+        color: #456E59;
+        padding-top: 5px;
+
+        overflow: hidden;
+        overflow-y: visible;
+    }
+
+    #countrypop .popclose,#eventpop .popclose {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background-color: #17201C;
+        z-index: 100;
+
+    }
+    #countrypop .popclose svg,#eventpop .popclose svg {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        fill: #ffffff;
+    }
+
+    #countrypop .popclose:hover svg,#eventpop .popclose:hover svg {
+        fill: #629C7F;
+    }
+
+    #countrypop_title, #countrypop_subtitle,#eventpop_title, #eventpop_subtitle {
+        padding: 5px 15px;
+        font-family:'Ubuntu Mono', monospace;
+
+    }
+
+    #countrypop_title,#eventpop_title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #cce8d9;
+    }
+
+    #countrypop_subtitle,#eventpop_subtitle {
+        font-weight: normal;
+        font-size: 18px;
+        padding-bottom: 15px;
+        color: #ffffff;
+    }
+
+    .countrypop_subsystems,.eventpop_subsystems {
+        padding: 10px 0 5px 0;
+        border-top: 1px solid #456e59;
+    }
+
+    .countrypop_subsystem,.eventpop_subsystem {
+        padding: 5px 10px;
+        display: block;
+    }
+
+    .countrypop_subsystem_icon,.eventpop_subsystem_icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+
+    .countrypop_subsystem_name, .countrypop_subsystem_stats,.eventpop_subsystem_name, .eventpop_subsystem_stats {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 16px;
+        vertical-align: middle;
+        height:100%;
+    }
+
+    .countrypop_subsystem_stats,.eventpop_subsystem_stats {
+        float: right;
+    }
+
+    #countrypop_disclaimer,#eventpop_disclaimer {
+        padding: 5px 5px 10px 5px;
+        font-size: 13px;
+        text-align: center;
+        color: #566256;
+    }
+    #countrypop_social,#eventpop_social {
+        border-top: 1px solid #456e59;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #countrypop_social h3,#eventpop_social h3 {
+        height: 60px;
+        line-height: 60px;
+        margin-left: 20px;
+        font-family:'Ubuntu Mono', monospace;
+        font-weight: normal;
+        font-size: 13px;
+        color: #1b1b1b;
+        padding-bottom: 10px;
+    }
+
+    #countrypop_sharing_icons,#eventpop_sharing_icons {
+        top: 15px;
+        right: 15px;
+        list-style-type: none;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #countrypop_sharing_icons li,#eventpop_sharing_icons li {
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+    }
+    #countrypop_sharing_icons li a,#eventpop_sharing_icons li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    #countrypop_sharing_icons li a i,#eventpop_sharing_icons li a i {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top: 6px;
+    }
+}
+
+#stats_graph {
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 4;
+    border: 1px solid #456e59;
+}
+
+#stats_graph #graph {
+    display: block;
+    width: 250px;
+    height: 350px;
+    background-color: #000000;
+
+}
+
+#stats_graph #stats_graph_header{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #17201C;
+    border-bottom: 1px solid #456e59;
+}
+
+#stats_graph #stats_graph_header h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #cce8d9;
+    padding-bottom: 15px;
+}
+
+#stats_graph #stats_graph_header h3 {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    #stats_graph {
+        display: none;
+    }
+}
+
+#detection_types_container {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: auto;
+    z-index: 5;
+    overflow: hidden;
+}
+#detection_types_container .detection_types {
+    height: 80px;
+    overflow: hidden;
+    float: none;
+    font-size: 14px;
+    margin: 0 auto;
+    display: table;
+}
+#detection_types_container .detection_types ul.type-icons {
+    display: inline;
+    list-style-type: none;
+    height: 40px;
+    margin-top: 30px;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Ubuntu Mono', monospace;
+    outline: 0;
+}
+#detection_types_container .detection_types ul.type-icons li {
+    display: block;
+    position: relative;
+    width: 90px;
+    height: 24px;
+    background-color: #17201c;
+    color: #456e59;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 24px;
+    float: left;
+    border: 1px solid #456e59;
+    cursor: pointer;
+    text-align: center;
+}
+
+#detection_types_container .detection_types ul.type-icons li .icon {
+    width: 24px;
+    height: 24px;
+    vertical-align:middle
+}
+
+#detection_types_container .detection_types ul.type-icons li span.name {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    line-height: 24px;
+    padding-left: 3px;
+}
+
+#detection_types_container .detection_types ul.type-icons li.disabled {
+    opacity: .4;
+}
+
+#detection_types_container .detection_types ul.type-icons li.last {
+    border-right: none !important;
+}
+#detection_types_container .detection_types ul.type-icons li i {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#detection_types_container .detection_types ul.type-icons li div.count {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    left: 0;
+    top: -30px;
+    text-align: center;
+    color: #456e59;
+    cursor: pointer;
+}
+#detection_types_container .detection_types ul.type-icons li div.count_line {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: #456e59;
+    top: -10px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev,
+#detection_types_container .detection_types .type-icons #detection_types_next {
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10px auto;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev svg,
+#detection_types_container .detection_types .type-icons #detection_types_next svg {
+    width: 12px;
+    fill: #629C7F;
+}
+
+#detection_types_container .detection_types .type-icons #detection_types_prev:hover svg,
+#detection_types_container .detection_types .type-icons #detection_types_next:hover svg {
+    fill: #ffffff;
+}
+
+
+/* countrypop and countrypop_mini */
+#systempop {
+    display: none;
+    margin: 10px auto;
+    max-width: 500px;
+    z-index: 10;
+    overflow: hidden;
+    height: auto;
+    background-color: #17201C;
+    padding: 35px;
+    color: #456e59;
+    font-family:'Ubuntu Mono', monospace;
+    border: 1px solid #456e59;
+}
+#systempop i.icon {
+    display: block;
+    top: 35px;
+    left: 35px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 5px;
+    float: left;
+}
+/*# sourceMappingURL=map.css.map */
